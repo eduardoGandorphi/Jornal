@@ -1,0 +1,120 @@
+*{
+    margin: 5px;
+    padding: 0px;
+    font-family: 'Indie Flower', cursive;
+}
+.alinhar{
+    display: inline-block;
+}
+.small{
+    width: 50px;
+}
+.medium{
+    width: 200px;
+}
+.white-back{
+    background-color: white;
+    border: 1px solid #BFBFBF;
+    box-shadow: 5px 10px 8px #888888;
+}
+header{
+    background-color: antiquewhite;
+}
+header h3{
+    display: inline-block;
+}
+
+header ul{
+    float: right;
+    display: inline-block;
+}
+footer{
+    background-color: blanchedalmond;
+}
+.menu{
+    display: inline-block;
+}
+.social{
+    display: inline-block;
+    float: right;
+}
+li{ 
+ display: inline-block;
+}
+.menu li{ 
+ display: block;
+}
+.main{
+    background-color: floralwhite;
+    width: 100%;
+    display: grid;
+    grid-template-columns: 10px auto 10px;
+    grid-template-rows: auto auto auto;
+    
+}
+.cover{
+    background: url(cover.PNG);
+    width: 100%;
+    height: 300px;
+    background-size: 100% 100%;
+    grid-column: 2;
+    grid-row: 1;     
+}
+.cover h4{
+    margin-top: 200px;
+    font-size: 50px;
+    text-align: center;
+    font-weight: bold;  
+    color: black;
+}
+.section-one{
+    grid-column: 2;
+    grid-row: 2;   
+}
+.m-flex{
+    display: flex;
+    flex-flow: wrap;    
+    justify-content: space-between;
+}
+.last-news{
+    background: url(livros.PNG);
+    background-size: 100% 100%;
+    width: 100%;
+    height: 200px;
+    
+    display: grid;
+    grid-template-rows: 150px auto;
+}
+.last-news h5{
+   grid-row: 2; 
+    font-size: 30px;
+}
+.in-m-flex{
+    width: 300px;
+    margin: 15px;
+}
+.section-two{
+    grid-column: 2;
+    grid-row: 3;
+}
+fieldset{
+    text-align: center;
+}
+fieldset fieldset{
+    display: inline-block;
+    width: 46%;
+}
+.btnSubmit{
+    float: right;
+}
+a{
+    text-decoration: none;
+    color: inherit;
+}
+.menu a
+{
+    margin: 0px;
+}
+.social a{
+    font-size: 40px;
+}
